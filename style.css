@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 207.8vh;
+    height: 100vh;
+}
+.svetafor{
+    width: 100px;
+    height: 190px;
+    border: 1px solid chartreuse;
+    position: relative;
+    top: 5%;
+    left: 60%;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 10px;
+}
+.qizil{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 100%;
+    margin-top: 10px;
+    position: relative;
+    left: 25px;
+    animation: ilyosbek 5s 2s ;
+}
+@keyframes ilyosbek{
+    0%{
+        box-shadow: 0 0 20px red;
+        background-color: red;
+    }
+    100%{
+        background-color: red;
+        box-shadow: 0 0 20px 1px red;
+    }
+}
+.sariq{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid yellow;
+    margin-top: 10px;
+    position: relative;
+    left: 25px;
+    animation: ilyosjon 3s 7s ;
+}
+
+@keyframes ilyosjon{
+    0%{
+        background-color: yellow;
+        box-shadow: 0 0 20px yellow;
+    }
+    100%{
+        box-shadow: 0 0 20px yellow;
+        background-color: yellow;
+    }
+}
+.yashil{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid green;
+    margin-top: 10px;
+    position: relative;
+    left: 25px;
+    animation: ilyosxon 5s 10s ;
+}
+
+@keyframes ilyosxon{
+    0%{
+        box-shadow: 0 0 20px green;
+        background-color: green;
+    }
+    100%{
+        box-shadow: 0 0 20px green;
+        background-color: green;
+    }
+}
+img{
+    width: 600px;
+    position: relative;
+    top: 150px;
+    animation: malibu 5s 10s;
+}
+@keyframes malibu{
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: 1600px;
+    }
+}
